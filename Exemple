@@ -11,7 +11,7 @@
 </head>
 <body>
   <h1>Bonjour !</h1>
-  <p>Ceci est un paragraphe avec un <a href="https://example.com">lien</a>.</p>
+  <p>Ceci est un paragraphe avec un <a href="https://example.com">super méga lien</a>.</p>
 
   <ul>
     <li>Premier élément</li>
