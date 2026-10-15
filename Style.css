@@ -1,5 +1,6 @@
 *{
   font-family: "Heebo", sans-serif;
+  margin: 0;
 }
 .nav-link{
     color: black;
@@ -9,20 +10,21 @@
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 1000px;
-    margin: 15px auto 0px auto;
+    width: 1300px;
+    margin: 15px auto 50px 100px;
 }
 #nav-links{
     display: flex;
     gap: 40px;
 }
 #lapin{
-    width: 400px;
+    width: 500px;
     height: 200px;
     border-radius: 30%;
     object-fit: cover;
+    margin-right: 50px;
 }
 #photomoi{
     width: 150px;
@@ -40,10 +42,16 @@ header{
     justify-content:center
 }
 #boutoncv{
-    padding: 10px;
+    margin: auto;
     height: 50px;
     width: 50px;
     color: orange;
     font-size: 20px;
     background-color: rgb(247, 233, 235)
+}
+#Blog{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(233, 238, 247);
+    margin-top: 50px;
 }
