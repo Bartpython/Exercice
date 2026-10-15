@@ -16,7 +16,7 @@
             <a class="nav-link" href="Index.html">Accueil</a>
             <a class="nav-link" href="#Blog">Blog</a>
             <a class="nav-link" href="#Portefolio">Portefolio</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
         </div>
     </nav>
     <header>
@@ -96,6 +96,42 @@
                 <p class="description-projet3">Ce projet consiste en la création de 36 illustrations typographiques, chacune représentant une lettre ou un chiffre, explorant la créativité et le design graphique.</p>
             </div>
         </article>
+    </section>
+    <section id="Contact">
+        <h2>Contact</h2>
+        <div id="contact-form">
+            <div id="contact-form-inner">
+                <h3 class="contact-title">Contactez-moi</h3>
+                <p id="contact-description">Vous pouvez me contacter en remplissant le formulaire :</p>
+                <h3 class="contact-title">Email</h3>
+                <p id="contact-email">monemail@example.com</p>
+                <h3 class="contact-title">Réseaux sociaux</h3>
+                <p id="contact-socials">Vous pouvez me retrouver sur les réseaux sociaux :</p>
+                <ul id="contact-socials-list">
+                    <li><a class="contact-social-link" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a class="contact-social-link" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a class="contact-social-link" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+
+            <form id="contact-form-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Service :</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="service">Service :</label>
+                <select id="service" name="service" required>
+                    <option value="Service 1">Service 1</option>
+                    <option value="Service 2">Service 2</option>
+                    <option value="Service 3">Service 3</option>
+                </select>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
