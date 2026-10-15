@@ -1,6 +1,7 @@
 *{
   font-family: "Heebo", sans-serif;
   margin: 0;
+  padding-bottom: 10px;
 }
 .nav-link{
     color: black;
@@ -53,5 +54,97 @@ header{
     width: 100%;
     height: 500px;
     background-color: rgb(233, 238, 247);
+    margin-top: 200px;
+}
+#titre-article-recent{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+#articles{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
     margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#creer-un-site-web{
+    padding: 15px;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 219, 165)
+}
+#comment-bien-structurer-son-code-html{
+    padding: 15px;
+    height: auto;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 219, 165)
+}
+#creer-un-site-web-paragraph{
+    padding: 15px;
+    height: 150px;
+    width: 540px;
+    background-color: rgb(255, 219, 165)
+}
+.infos{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    background-color: rgb(255, 219, 165)
+}
+#comment-bien-structurer-son-code-html-paragraph{
+    padding: 15px;
+    height: 150px;
+    width: 540px;
+    background-color: rgb(255, 219, 165)
+}
+.image-article1{
+    width: 269px;
+    height: 269px;
+    object-fit: cover;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image-article2{
+    width: 40%;
+    margin-left: 200px;
+    margin-right: 73px;
+}
+.image-article3{
+    width: 40%;
+    margin-left: 200px;
+}
+#titre-portefolio{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.article{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 270px;
+}
+#design-de-tableau-de-bord{
+    padding: 15px;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
+}
+#portrait-vibrants{
+    margin-top: 50px;
+    padding: 15px;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
+}
+#typographie{
+    margin-top: 50px;
+    padding: 15px;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
 }
