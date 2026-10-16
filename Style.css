@@ -34,7 +34,7 @@ nav{
     object-fit: cover;
 }
 #paragraphe1{
-    width: 500px;
+    max-width: 500px;
     font-size: 20px;
     text-align: justify;
 }
@@ -148,6 +148,14 @@ header{
     font-size: 20px;
     text-align: center;
 }
+#contact{
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #contact1{
     font-size: 40px;
     display: flex;
@@ -160,10 +168,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 50px;
     background-color: rgb(250, 242, 244);
     border-radius: 10px;
-    width: 100%;
 }
 #contact-form{
     display: flex;
@@ -175,7 +184,6 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: auto;
     background-color: rgb(255, 234, 203);
     border-radius: 10px;
 }
@@ -217,4 +225,108 @@ footer{
     text-align: center;
     padding: 20px;
     border-radius: 10px;
+}
+/* exemple responsive */
+@media (max-width: 1300px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link{
+        display: none;
+    }
+    #lapin{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+    }
+    nav{
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #paragraph1{
+        font-size: 16px;
+        max-width: 100%;
+        box-sizing: border-box;
+        text-align:center;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        max-width: 100%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #article-recent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #article1,
+    #article2,
+    #article3{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article{
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .image-article1, .image-article2, .image-article3{
+        display: none;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #design-de-tableau-de-bord,
+    #portrait-vibrants,
+    #typographie{
+        width: 100%;
+        padding: 10px;
+    }
+    #contact-form{
+        max-width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact-form-form{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    #contact1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 30px;
+        height: 80px;
+        box-sizing: border-box;
+    }   
+    #message,
+    #name1,
+    #email1,
+    #service1{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    #contact-form, #contact-form-form{
+        max-width: 100%;
+    }
 }
