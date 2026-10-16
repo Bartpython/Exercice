@@ -168,7 +168,7 @@ header{
 #contact-form{
     display: flex;
     width: 550px;
-    height: 825px;
+    height: 920px;
     margin:auto;
     padding: 70px;
     flex-direction: column;
@@ -177,11 +177,13 @@ header{
     text-align: center;
     gap: auto;
     background-color: rgb(255, 234, 203);
+    border-radius: 10px;
 }
 .contact-social-link{
     display: flex;
 }
 #message{
+    height: 150px;
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
@@ -209,4 +211,10 @@ header{
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+}
+footer{ 
+    background-color: rgb(255, 219, 165);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
